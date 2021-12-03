@@ -9,7 +9,7 @@ jobs:
       - name: gitleaks-action with private repo
         uses: actions/checkout@master
         with: 
-          repository: spring-media/RyanEinfuehrung
+          repository: spring-media/la-hua-api
           #token: ${{ secrets.NMT }}
       - name: gitleaks    
         uses: rheien/gitleaks-action@master
