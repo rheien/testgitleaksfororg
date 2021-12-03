@@ -9,6 +9,5 @@ jobs:
       - uses: actions/checkout@master
       - name: gitleaks-action with 
         with: 
-          name: spring-media/red-flux-cd
-            ref: refs/heads/release
+          repository: spring-media/red-flux-cd
         uses: rheien/gitleaks-action@master
