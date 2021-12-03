@@ -10,5 +10,6 @@ jobs:
         uses: actions/checkout@master
         with: 
           repository: spring-media/red-flux-cd
+          token: ${{ secrets.NMT }}
       - name: gitleaks    
         uses: rheien/gitleaks-action@master
